@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://ja.wikipedia.org/w/index.php?title=MediaWiki&amp;gettingStartedReturn=true'</initValue>
+      <name>WIKIPEDIA_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>WIKIPEDIA_USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>WIKIPEDIA_PASSWORD</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

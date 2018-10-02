@@ -1,16 +1,26 @@
-/.classpath
-/.project
+## proposed by https://github.com/katalon-studio/ShadowDOMSampleProject/blob/master/.gitignore#L3
+\.classpath
+\.project
+\.settings/
+bin/lib/
+Libs/
+
+## I do not want Report to be published
+Reports/
+Materials/
+
+# hide my sensitive information
+katalon.properties
+/.gitignore
 /Checkpoints/
 /Drivers/
 /ExecutingKatalonTestUsingPersistedCookies.prj
 /Include/
 /Keywords/
-/Libs/
 /Profiles/
-/Reports/
 /Scripts/
+/console.properties
 /settings/
 /groovy/
 /keyword/
-/lib/
 /listener/
